@@ -30,3 +30,23 @@ function animalListing( animalArray, listFoods){
 		}
 	}
 }
+
+function doubleNumber(number){
+	return numner *2;
+}
+
+var doubleNumberES5 = function(number){
+	return number *2;
+}
+
+
+//remove the function keyword
+//add a far arrow => between the paramenter parens and the curly braces
+
+var doubleNumberES6 = number => number *2;
+
+//if there is only one parameter, you can remove the parenthesis 
+//if the only thing the function does is return a value, you van remove the curly braces AND the return
+
+var array = [1,2,3,4,5,6,7]
+var doubleArray = array.map(doubleNumberES6)
